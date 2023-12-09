@@ -21,4 +21,8 @@ public enum ErrorCodeEnum implements IBaseException {
     private String errCode;
     private String errMsg;
 
+    ErrorCodeEnum(String errCode, String errMsg) {
+        this.errCode = errCode;
+        this.errMsg = errMsg;
+    }
 }
